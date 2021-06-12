@@ -15,4 +15,5 @@ app.all('*', async (req, res) => {
 
 app.listen(3002, () => {
   console.log('nodecheck app started. listen on 3002 port.');
+  console.log('hello world');
 })
